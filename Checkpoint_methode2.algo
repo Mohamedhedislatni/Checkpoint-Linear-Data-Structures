@@ -1,0 +1,18 @@
+algorithm dot_product
+var v1,v2:array[];
+ps,k:integer;
+begin
+function : dot_product(a,b){
+ps:=a[0]*b[0]+a[1]*b[1];
+return ps;
+}
+for i from 0 to n do
+read(v1);
+read(v2);
+k:=dot_procedure(v1,v2);
+if k=0 then
+write(‘vectors are orthogonals’);
+else write(‘vectors are not orthogonals’);
+end_if
+end_for
+End.
